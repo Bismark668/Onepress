@@ -18,7 +18,7 @@ export const Blogcontent = () => {
     useEffect(() => {
       const fetchBlogs = async () => {
         try {
-          const response = await axios.get('http://localhost:1337/api/blogs?populate=*'); 
+          const response = await axios.get('`${process.env.REACT_APP_API_URL`'); 
           if (Array.isArray(response.data.data)) {
             setBlogs(response.data.data);
           } else {

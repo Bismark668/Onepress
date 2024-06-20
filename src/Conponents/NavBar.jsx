@@ -18,8 +18,8 @@ export const NavBar = () => {
                 <div className="flex items-center">
                     <ul className='hidden md:flex'>
                         <a href="/"><li><h3>Home</h3></li></a>
-                        <a href="/about"><li><h3>About</h3></li></a>
-                        <a href="/blogs"><li><h3>Blogs</h3></li></a>
+                        <a href="/onepressgh.netlify.app/about"><li><h3>About</h3></li></a>
+                        <a href="/onepressgh.netlify.app/blogs"><li><h3>Blogs</h3></li></a>
                     </ul>
                 </div>
 
