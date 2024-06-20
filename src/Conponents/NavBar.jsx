@@ -4,6 +4,7 @@ import { MdSearch } from "react-icons/md";
 import menu from '../assets/menuicon.png'
 import close from '../assets/closeicon.png'
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
     const [openMenu , setOpenmenu]=useState(false)
@@ -17,9 +18,16 @@ export const NavBar = () => {
 
                 <div className="flex items-center">
                     <ul className='hidden md:flex'>
-                        <a href="/"><li><h3>Home</h3></li></a>
-                        <a href="/onepressgh.netlify.app/about"><li><h3>About</h3></li></a>
-                        <a href="/onepressgh.netlify.app/blogs"><li><h3>Blogs</h3></li></a>
+                        <NavLink to={'/'}>
+                            <h3>Home</h3>
+                        </NavLink>
+
+                        <NavLink to={'/about'}>
+                            <h3>About</h3>
+                        </NavLink>
+                        <NavLink to={'/blogs'}>
+                            <h3>Blogs</h3>
+                        </NavLink>
                     </ul>
                 </div>
 
