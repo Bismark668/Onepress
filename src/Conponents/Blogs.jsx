@@ -45,7 +45,7 @@ export const Blogs = () => {
                         </Link>
                     ))
                 ) : (
-                    <p className='text-center font-bold '>Loading  blogs .......</p>
+                    <p className='text-center font-bold '>Loading .......</p>
                 )}             
             </div>
         </div>  

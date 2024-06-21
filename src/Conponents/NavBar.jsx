@@ -19,21 +19,14 @@ export const NavBar = () => {
                 <div className="flex items-center">
                     <ul className='hidden md:flex'>
                         <NavLink to={'/'}>
-                            <ul>
-                                <li><h2>Home</h2></li>
-                            </ul>
+                        <li><h3>Home</h3> </li>
                         </NavLink>
-
                         <NavLink to={'/about'}>
-                            <ul>
-                                <li><h2>About</h2></li>
-                            </ul>
+                            <li><h3>About</h3></li>
                         </NavLink>
 
                         <NavLink to={'/blogs'}>
-                            <ul>
-                                <li><h2>Blogs</h2></li>
-                            </ul>
+                            <li><h3>Blogs</h3></li>  
                         </NavLink>
                     </ul>
                 </div>
