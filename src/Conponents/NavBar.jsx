@@ -50,9 +50,16 @@ export const NavBar = () => {
                     
                 </div>
 
-                <a href="/"><li><h3>Home</h3></li></a>
-                <a href="/about"><li><h3>About</h3></li></a>
-                <a href="/blogs"><li><h3>Blogs</h3></li></a>    
+                <NavLink to={'/'}>
+                    <li><h3>Home</h3> </li>
+                </NavLink>
+                <NavLink to={'/about'}>
+                       <li><h3>About</h3></li>
+                </NavLink>
+
+                <NavLink to={'/blogs'}>
+                    <li><h3>Blogs</h3></li>  
+                </NavLink>   
             </ul>
         </div>
     </>
