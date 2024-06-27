@@ -3,7 +3,7 @@ import Featured from '../assets/aboutimg.jpg'
 
 const Aboutus = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center p-3">
+    <div className="flex flex-col md:flex-row min-h-[100vh] w-full items-center p-3">
       <div className="w-full h-full">
             <img 
             src={Featured} 
@@ -11,7 +11,7 @@ const Aboutus = () => {
             className="rounded-lg shadow-lg object-cover h-full w-full"
             />
       </div>
-      <div className="w-full md:w-1/2 md:ml-8 p-2">
+      <div className="w-full  md:w-1/2 md:ml-8 p-2">
             <h1 className="text-3xl font-bold mb-4 pt-2 text-center">About Us</h1>
             <p className="text-lg mb-4">
             Welcome to our blog site, your ultimate source for insightful articles, thought-provoking content, and the latest trends in various domains. Our mission is to inform, inspire, and ignite curiosity in our readers. We believe in the power of words to change perspectives, challenge norms, and create a community of like-minded individuals who are passionate about continuous learning and growth.
