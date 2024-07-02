@@ -8,7 +8,7 @@ export const Blogs = () => {
     useEffect(() => {
       const fetchBlogs = async () => {
         try {
-          const response = await axios.get(`${process.env.REACT_APP_API_URL}`);
+          const response = await axios.get('`${process.env.REACT_APP_API_URL`'); 
           console.log(response.data);
           if (Array.isArray(response.data.data)) {
             setBlogs(response.data.data);
